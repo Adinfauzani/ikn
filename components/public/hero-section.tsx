@@ -18,14 +18,15 @@ export function HeroSection() {
       <div className="relative mx-auto flex min-h-[70vh] max-w-6xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-xs font-semibold tracking-[0.2em] text-[#e7efe8] uppercase">
-            Ibu Kota Nusantara
+            Portal Informasi Nusantara
           </p>
           <h1 className="mt-4 text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
             Ibu Kota Masa Depan Indonesia
           </h1>
           <p className="mt-5 max-w-xl text-base leading-7 text-[#e6ece6] sm:text-lg">
-            Menjelajahi pembangunan Nusantara sebagai pusat pemerintahan yang
-            modern, inklusif, dan berkelanjutan.
+            Portal informasi mengenai Ibu Kota Nusantara (IKN) di Kalimantan Timur
+            serta informasi wilayah terkait, disajikan secara ringkas, terbuka, dan
+            mudah diakses.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="/tentang" size="lg">

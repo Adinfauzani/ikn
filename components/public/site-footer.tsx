@@ -5,6 +5,7 @@ type Settings = Record<string, string | null>;
 const navLinks = [
   { href: "/", label: "Beranda" },
   { href: "/tentang", label: "Tentang IKN" },
+  { href: "/gunung-putri", label: "Gunung Putri" },
   { href: "/berita", label: "Berita" },
   { href: "/kontak", label: "Kontak" },
 ];

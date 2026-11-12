@@ -22,16 +22,15 @@ export function IntroductionSection() {
             Mengenal Ibu Kota Nusantara
           </h2>
           <p className="mt-4 text-base leading-7 text-muted">
-            Ibu Kota Nusantara (IKN) direncanakan sebagai pusat pemerintahan
-            Indonesia yang mengedepankan tata kelola modern, kualitas lingkungan,
-            serta konektivitas yang inklusif. Pengembangan kawasan ini diarahkan
-            untuk mendukung fungsi pemerintahan sekaligus menghadirkan ruang hidup
-            yang selaras dengan alam.
+            Ibu Kota Nusantara (IKN) adalah pusat pemerintahan Indonesia yang
+            berlokasi di Kalimantan Timur. Pengembangannya diarahkan untuk
+            mendukung fungsi pemerintahan dengan tata kelola yang modern,
+            memperhatikan kualitas lingkungan, serta konektivitas yang inklusif.
           </p>
           <p className="mt-4 text-base leading-7 text-muted">
-            Melalui pendekatan perencanaan jangka panjang, Nusantara diharapkan
-            menjadi kawasan yang adaptif, berdaya saing, dan berorientasi pada
-            keberlanjutan bagi generasi mendatang.
+            Portal ini menyajikan informasi umum dan pembaruan terkait Nusantara.
+            Rincian resmi, data, dan capaian akan ditampilkan berdasarkan sumber
+            yang dapat diverifikasi.
           </p>
           <div className="mt-7">
             <ButtonLink href="/tentang" variant="outline">

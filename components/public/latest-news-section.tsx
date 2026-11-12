@@ -18,7 +18,7 @@ export function LatestNewsSection({ articles }: { articles: PublicArticleListIte
             Informasi dan Berita Terkini
           </h2>
           <p className="mt-3 max-w-2xl text-base leading-7 text-muted">
-            Kumpulan informasi dan kabar terbaru seputar Ibu Kota Nusantara.
+            Kumpulan informasi dan kabar terbaru yang dipublikasikan melalui portal ini.
           </p>
         </div>
         <ButtonLink href="/berita" variant="outline" className="w-fit">

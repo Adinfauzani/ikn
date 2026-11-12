@@ -9,6 +9,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/tentang`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/gunung-putri`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/gunung-putri/profil`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/gunung-putri/infrastruktur`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/gunung-putri/pembangunan`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/gunung-putri/potensi`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/gunung-putri/berita`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${base}/berita`, changeFrequency: "daily", priority: 0.9 },
     { url: `${base}/kontak`, changeFrequency: "monthly", priority: 0.6 },
   ];
