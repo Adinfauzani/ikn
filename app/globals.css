@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f4ed;
+  --foreground: #1f2933;
+  --surface: #ffffff;
+  --surface-muted: #f1ede3;
+  --primary: #1f4d3a;
+  --primary-foreground: #f8faf8;
+  --secondary: #4f6f52;
+  --secondary-foreground: #f8faf8;
+  --muted: #6b7280;
+  --border: #d9d2c3;
+  --accent: #b08968;
+  --ring: #1f4d3a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
+  color: var(--foreground);
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose-content p,
+.prose-content li,
+.prose-content blockquote {
+  color: #374151;
+  line-height: 1.8;
+}
+
+.prose-content p + p {
+  margin-top: 1em;
+}
+
+.prose-content ul,
+.prose-content ol {
+  margin: 1em 0 1em 1.25em;
+}
+
+.prose-content ul {
+  list-style: disc;
+}
+
+.prose-content ol {
+  list-style: decimal;
+}
+
+.prose-content blockquote {
+  border-left: 3px solid var(--border);
+  padding-left: 1rem;
+  color: #4b5563;
+  font-style: italic;
+}
+
+.prose-content img {
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.prose-content a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
